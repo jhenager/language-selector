@@ -37,7 +37,15 @@ $(document).ready(function(){
       }
     }
     
-    
+    if (hat === "fedora") {
+      if ((animal === "hedgehog" || animal === "boa")) {
+        $("form#language").hide();
+        $("div#python").show();
+      } else if (animal === "dog") {
+        $("form#language").hide();
+        $("div#javscript").show();
+      }
+    }
     
 
   
