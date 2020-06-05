@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Which programming language are you?</h1>
+  </div>
+  <form id="language">
+
+    <!-- Regular Form -->
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input id="age" class="form-control" type="text">
+    </div>
+
+    <!-- Radio Buttons -->
+    <div class="radio">
+      <label>
+        <input type="radio" name="animal" value="dog" checked>
+        Dog
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="animal" value="hedgehog">
+        Hedgehog
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="animal" value="boa constrictor">
+        Boa Constrictor
+      </label>
+    </div>
+
+  </form>
 </body>
 </html>
