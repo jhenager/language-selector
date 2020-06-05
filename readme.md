@@ -14,8 +14,9 @@ _This application is designed to help the user decide which coding language is b
 * _Click on "clone or download", copy the link_
 * _Clone the code into a code editor of your preference_
 * _View the HTML in the browser or HTML previewer_
-### or
-* _Navigate to :
+## or:
+
+* _Navigate to :_
 
 
 ## Known Bugs
