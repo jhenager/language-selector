@@ -7,7 +7,7 @@
 
 $(document).ready(function(){
   $("form#language").submit(function(event)) {
-
+    const age = parseInt($("input#age").val());
 
 
   });
