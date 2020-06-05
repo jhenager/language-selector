@@ -18,17 +18,23 @@ $(document).ready(function(){
     $("#java-name").prepend(name + ", ");
 
     if (hat === "beanie") {
-      if ((animal === "hedgehog" || animal === "boa")) {
+      if ((animal === "hedgehog" || animal === "dog")) {
       $("form#language").hide();
       $("div#ruby").show();
-      } else if (coffee === "sweet") {
+      } else if (animal === "boa") {
         $("form#language").hide();
-        $("div#ruby").show();
+        $("div#python").show();
       } 
     }
 
-    else {
-      alert("it didn't work")
+    if (hat === "snap") {
+      if ((animal === "dog" || animal === "boa")) {
+        $("form#language").hide();
+        $("div#javascript").show();
+      } else if (animal === "hedgehog") {
+        $("form#language").hide();
+        $("div#ruby").show();
+      }
     }
     
     
