@@ -12,86 +12,92 @@
     <div class="jumbotron">
       <h2>Which programming language are you?</h2>
     </div>
-    <form id="language">
-
-      <!-- Regular Form -->
-      <div class="form-group">
-        <label for="name"><h3>What is your name?</h3></label>
-        <input id="name" class="form-control" type="text">
-      </div>
-
-      <!-- Radio Buttons -->
-      <h3>Which of these animals is your favorite?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="animal" value="dog">
-          Dog
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="animal" value="hedgehog">
-          Hedgehog
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="animal" value="boa">
-          Boa Constrictor
-        </label>
-      </div>
-
-      <h3>What is your preferred style of hat?</h3>
-      
-      <div class="radio">
-        <label>
-          <input id="beanie" type="radio" name="hat" value="beanie">
-          Beanie
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input id="fedora" type="radio" name="hat" value="fedora">
-          Fedora
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="hat" value="snap">
-          Snapback
-        </label>
-      </div>
-
-      <!-- Dropdowns -->
-      <h3>How do you take your coffee?</h3>
-      <select class="form-control" id="coffee">
-        <option value="black">Black</option>
-        <option value="cream">With Cream</option>
-        <option value="sweet">Sweet as Candy</option>
-      </select>
-
-      <h3>What is your favorite fruit?</h3>
-      <select class="form-control" id="fruit">
-        <option value="apple">Apple</option>
-        <option value="cherry">Cherry</option>
-        <option value="tomato">Tomato</option>
-      </select>
-
-      <!-- Button -->
-      <button type="submit" class="btn">Submit!</button>
-    </form>
-
-    <div id="ruby">
-      <h1 id="ruby-name">your language is Ruby!</h1>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <form id="language">
+  
+          <!-- Regular Form -->
+          <div class="form-group">
+            <h3>What is your name?</h3>
+            <label for="name"></label>
+            <input id="name" class="form-control" type="text">
+          </div>
+    
+          <!-- Radio Buttons -->
+          <h3>Which of these animals is your favorite?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="dog">
+              Dog
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="hedgehog">
+              Hedgehog
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="boa">
+              Boa Constrictor
+            </label>
+          </div>
+    
+          <h3>What is your preferred style of hat?</h3>
+          
+          <div class="radio">
+            <label>
+              <input id="beanie" type="radio" name="hat" value="beanie">
+              Beanie
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input id="fedora" type="radio" name="hat" value="fedora">
+              Fedora
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hat" value="snap">
+              Snapback
+            </label>
+          </div>
+    
+          <!-- Dropdowns -->
+          <h3>How do you take your coffee?</h3>
+          <select class="form-control" id="coffee">
+            <option value="black">Black</option>
+            <option value="cream">With Cream</option>
+            <option value="sweet">Sweet as Candy</option>
+          </select>
+    
+          <h3>What is your favorite fruit?</h3>
+          <select class="form-control" id="fruit">
+            <option value="apple">Apple</option>
+            <option value="cherry">Cherry</option>
+            <option value="tomato">Tomato</option>
+          </select>
+    
+          <!-- Button -->
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+    
+        <div id="ruby">
+          <h1 id="ruby-name">your language is Ruby!</h1>
+        </div>
+    
+        <div id="javascript">
+          <h1 id="java-name">your language is Javascript!</h1>
+        </div>
+    
+        <div id="python">
+          <h1 id="python-name">your language is Python!</h1>
+        </div>
+      </div> 
     </div>
-
-    <div id="javascript">
-      <h1 id="java-name">your language is Javascript!</h1>
-    </div>
-
-    <div id="python">
-      <h1 id="python-name">your language is Python!</h1>
-    </div>
-  </div>  
+  </div> 
 </body>
 </html>
