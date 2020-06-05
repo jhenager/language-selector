@@ -10,36 +10,76 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Which programming language are you?</h1>
-  </div>
-  <form id="language">
+      <h2>Which programming language are you?</h2>
+    </div>
+    <form id="language">
 
-    <!-- Regular Form -->
-    <div class="form-group">
-      <label for="age">Age</label>
-      <input id="age" class="form-control" type="text">
-    </div>
+      <!-- Regular Form -->
+      <div class="form-group">
+        <label for="age"><h3>What is your age?</h3></label>
+        <input id="age" class="form-control" type="text">
+      </div>
 
-    <!-- Radio Buttons -->
-    <div class="radio">
-      <label>
-        <input type="radio" name="animal" value="dog" checked>
-        Dog
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="animal" value="hedgehog">
-        Hedgehog
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="animal" value="boa constrictor">
-        Boa Constrictor
-      </label>
-    </div>
+      <!-- Radio Buttons -->
+      <h3>Which of these animals is your favorite?</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="dog">
+          Dog
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="hedgehog">
+          Hedgehog
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="boa constrictor">
+          Boa Constrictor
+        </label>
+      </div>
 
-  </form>
+      <h3>What is your preferred style of hat?</h3>
+      
+      <div class="radio">
+        <label>
+          <input type="radio" name="hat" value="beanie">
+          Beanie
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="hat" value="fedora">
+          Fedora
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="hat" value="snapback">
+          Snapback
+        </label>
+      </div>
+
+      <!-- Dropdowns -->
+      <h3>How do you take your coffee?</h3>
+      <select class="form-control" id="coffee">
+        <option>Black</option>
+        <option>With Cream</option>
+        <option>Sweet as Candy</option>
+      </select>
+
+      <h3>What is your favorite fruit?</h3>
+      <select class="form-control" id="beverage">
+        <option>Apple</option>
+        <option>Cherry</option>
+        <option>Tomato</option>
+      </select>
+
+      <!-- Button -->
+      <button type="submit" class="btn">Submit!</button>
+    </form>
+  </div>  
 </body>
 </html>
