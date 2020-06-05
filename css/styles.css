@@ -26,6 +26,7 @@ input {
 button {
   margin: 20px;
   float: right;
+  
 }
 
 .result {
@@ -53,4 +54,6 @@ img {
 
 footer {
   height: 200px;
+  text-align: center;
+  margin-top: 20px;
 }

@@ -21,7 +21,7 @@ _This application is designed to help the user decide which coding language is b
 
 ## Known Bugs
 
-_There are no known bugs at the time of publishing_
+_There is a bug where if you check the radio buttons and do not enter your name, it will give you an alert to enter your name but still assign you a programming language._
 
 ## Support and contact details
 
