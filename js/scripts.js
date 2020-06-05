@@ -44,7 +44,7 @@ $(document).ready(function(){
     }
     
     if (name === "") {
-      alert("Please enter your name")
+      alert("Please enter your name");
     }
     event.preventDefault();
   })
