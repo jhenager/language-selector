@@ -10,6 +10,6 @@ $(document).ready(function(){
     const age = parseInt($("input#age").val());
     alert(age);
 
-    // event.preventDefault();
+    event.preventDefault();
   });
 });
