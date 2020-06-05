@@ -13,10 +13,17 @@ $(document).ready(function(){
     const coffee = $("#coffee").val();
     const fruit = $("#fruit").val();
 
-    if ((age>=18) && (hat === "beanie") && (fruit === "apple")) {
+    if (hat === "beanie") {
+      if (animal === "hedgehog") {
       $("form#language").hide();
       $("div#ruby").show();
-    } else {
+      } else if (coffee === "sweet") {
+        $("form#language").hide();
+        $("div#ruby").show();
+      } else if ()
+    }
+
+    else {
       alert("it didn't work")
     }
       
