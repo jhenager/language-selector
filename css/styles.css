@@ -28,6 +28,17 @@ button {
   float: right;
 }
 
+.result {
+  margin: 50px;
+  text-align:center;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
 #ruby {
   display: none;
 }

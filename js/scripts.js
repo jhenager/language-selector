@@ -43,7 +43,7 @@ $(document).ready(function(){
         $("div#python").show();
       } else if (animal === "dog") {
         $("form#language").hide();
-        $("div#javscript").show();
+        $("div#javascript").show();
       }
     }
     
