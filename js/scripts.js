@@ -1,7 +1,3 @@
-// Business Logic
-
-
-
 
 // User Interface Logic
 
@@ -47,8 +43,9 @@ $(document).ready(function(){
       }
     }
     
-
-  
+    if (name === "") {
+      alert("Please enter your name")
+    }
     event.preventDefault();
   })
 });
